@@ -1,0 +1,68 @@
+.SignIn_container {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid gray;
+  height: 350px;
+  width: 250px;
+  margin: 100px auto;
+  background-color: rgb(255, 226, 80);
+  border-radius: 30px 0px 30px 0px;
+}
+.SignIn_container h1 {
+  margin: 5px;
+  color: rgb(0, 4, 255);
+  font-family: cursive;
+}
+.SignIn_container h2 {
+  margin: 5px;
+  color: rgb(255, 0, 0);
+  font-family: cursive;
+  border-radius: 20px;
+  background-color: rgb(0, 217, 255);
+}
+.SignIn_container form {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  align-items: center;
+}
+.SignIn_container form input {
+  margin: 20px 0px;
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+}
+.SignIn_container form button {
+  margin: 20px 0px;
+  width: 90px;
+  color: blue;
+  font-size: 20px;
+  border: 2px solid rgb(4, 0, 251);
+  background-color: rgb(0, 255, 208);
+  height: 30px;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.SignIn_container form button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(76, 0, 255);
+}
+#forgot_pass {
+  margin: 5px;
+  color: rgb(0, 34, 255);
+  text-decoration: underline;
+  font-family: cursive;
+  position: relative;
+  bottom: 100px;
+  cursor: pointer;
+}
+.err_msg {
+  color: Red;
+  font-weight: bold;
+  width: 240px;
+  margin: auto;
+  position: relative;
+  bottom: 50px;
+}

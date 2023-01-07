@@ -1,0 +1,81 @@
+.Register_container {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid gray;
+  height: 350px;
+  width: 250px;
+  margin: 100px auto;
+  background-color: coral;
+  border-radius: 30px 0px 30px 0px;
+}
+.Register_container h1 {
+  margin: 5px;
+  color: rgb(0, 4, 255);
+  font-family: cursive;
+}
+.Register_container h3 {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  color: rgb(76, 249, 8);
+  font-family: cursive;
+  border-radius: 20px;
+  background-color: rgb(108, 48, 219);
+  justify-content: center;
+  align-content: center;
+  height: 50px;
+}
+.Register_container form {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  align-items: center;
+}
+.Register_container form input {
+  margin: 05px 0px;
+  width: 200px;
+  height: 25px;
+  border-radius: 10px;
+}
+.Register_container form button {
+  margin: 20px 0px;
+  width: 90px;
+  color: blue;
+  font-size: 20px;
+  border: 2px solid rgb(4, 0, 251);
+  background-color: rgb(0, 255, 208);
+  height: 30px;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+  top: 30px;
+}
+.Register_container form button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(76, 0, 255);
+}
+#forgot_pass {
+  margin: 5px;
+  color: rgb(0, 34, 255);
+  text-decoration: underline;
+  font-family: cursive;
+  position: relative;
+  bottom: 100px;
+  cursor: pointer;
+}
+
+#err_msg {
+  display: inline-block;
+  color: Red;
+  background-color: rgb(241, 249, 7);
+  font-weight: bold;
+  width: 240px;
+  overflow-y: scroll;
+  height: 50px;
+  margin: auto;
+  position: relative;
+  bottom: 82px;
+  border-radius: 5px;
+}
